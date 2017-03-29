@@ -7,7 +7,7 @@ import android.os.Bundle;
  * Abstract Factory khac Factory ở chỗ là bên Factory không có abstract, abstract factory nó có
  * nhiều class Abstract hơn
  * Có class Abstract thì phải có 1 cái producer để tạo ra abstract nữa
- * 
+ *
  */
 
 public class MainActivity extends AppCompatActivity {

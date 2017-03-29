@@ -2,6 +2,8 @@ package example.toong.factorypattern;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import java.util.Locale;
 
 /**
  * Demo from here: https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
@@ -25,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Locale.getDefault().getLanguage();
+
         ShapeFactory shapeFactory = new ShapeFactory();
 
         //get an object of Circle and call its draw method.
@@ -44,5 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
         //call draw method of circle
         shape3.draw();
+
+
+
     }
 }
