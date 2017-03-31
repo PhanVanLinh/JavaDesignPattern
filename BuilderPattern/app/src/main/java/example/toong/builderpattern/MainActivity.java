@@ -12,7 +12,7 @@ import example.toong.builderpattern.utils.MLog;
  * best ways to create an object.
  *
  * Khi mở rộng (thêm 1 loại item vào) có vẻ sẽ dễ dàng hơn rất nhiều
- * 
+ *
  */
 
 public class MainActivity extends AppCompatActivity {
