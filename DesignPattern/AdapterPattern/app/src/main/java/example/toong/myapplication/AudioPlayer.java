@@ -22,5 +22,7 @@ public class AudioPlayer implements MediaPlayer {
         } else {
             MLog.i("Invalid media. " + audioType + "format is not support");
         }
+
+       
     }
 }
